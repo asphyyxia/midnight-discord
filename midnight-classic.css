@@ -1,11 +1,11 @@
 /* change colors */
 .theme-dark {
-	--brand-experiment: hsl(220, 60%, 60%);
+	--brand-experiment: hsl(245, 60%, 60%);
 
-	--header-primary: hsl(220, 15%, 60%);
-	--header-secondary: hsl(220, 15%, 40%);
+	--header-primary: hsl(360, 100%, 100%);
+	--header-secondary: hsl(0, 0%, 70%);
 	--text-normal: var(--header-primary);
-	--text-muted: hsl(220, 15%, 20%);
+	--text-muted: hsl(220, 0%, 40%);
 	--text-link: hsl(197, 100%, 47.8%);
 	--text-link-low-saturation: /* hsl(197, 100%, 52.9%) */ var(--text-link);
 	--text-positive: hsl(139, 66.8%, 58.6%);
@@ -49,13 +49,13 @@
 	--control-brand-foreground: hsl(235, 86.1%, 77.5%);
 	--control-brand-foreground-new: hsl(235, 86.1%, 77.5%);
 	--background-mentioned: /* hsla(38, 95.7%, 54.1%, 0.1)*/ hsla(
-		220,
+		245,
 		60%,
 		60%,
 		0.1
 	);
 	--background-mentioned-hover: /*hsla(38, 95.7%, 54.1%, 0.08)*/ hsla(
-		220,
+		245,
 		60%,
 		60%,
 		0.08
